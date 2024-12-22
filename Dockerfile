@@ -10,6 +10,6 @@ COPY . .
 
 ENV PORT=5000
 
-ENV MODEL_URL='hhttps://storage.googleapis.com/ml-model-submission/ml-model/model.json'
+ENV MODEL_URL='https://storage.googleapis.com/ml-model-submission/ml-model/model.json'
 
 CMD ["npm", "start"]
